@@ -13,7 +13,6 @@
     "check": "npx @biomejs/biome check --apply src/app"
   },
   "dependencies": {
-    "@biomejs/biome": "^1.5.2",
     "expo": "^49.0.21",
     "expo-constants": "~14.4.2",
     "expo-linking": "~5.0.2",
@@ -30,10 +29,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@biomejs/biome": "1.5.2",
     "@types/react": "~18.2.14",
-    "eslint": "^8.56.0",
-    "eslint-config-universe": "^12.0.0",
-    "prettier": "^3.2.3",
     "typescript": "^5.1.3"
   },
   "private": true
